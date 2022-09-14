@@ -56,6 +56,8 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BatController.cs" />
+    <Compile Include="Assets\KYH\Scripts\Player Skill\Passive Skill\Coward.cs" />
     <Compile Include="Assets\KYH\Scripts\Player Skill\Active Skill\ActiveSkill.cs" />
     <Compile Include="Assets\KYH\Scripts\Player Skill\Active Skill\Thunderclap.cs" />
     <Compile Include="Assets\KYH\Scripts\Player Skill\PlayerSkill.cs" />
@@ -63,7 +65,9 @@
     <Compile Include="Assets\KYH\Scripts\Enemy\Boss.cs" />
     <Compile Include="Assets\KYH\Scripts\Manager\InGameManager\UI\UiManager.cs" />
     <Compile Include="Assets\KYH\Scripts\Manager\ButtonManager.cs" />
+    <Compile Include="Assets\Scripts\SkullController.cs" />
     <Compile Include="Assets\KYH\Scripts\Manager\Define.cs" />
+    <Compile Include="Assets\Enemy Galore 1 - Pixel Art\Script\EnemySelector.cs" />
     <Compile Include="Assets\KYH\Scripts\Player Skill\Passive Skill\HourGlassEvent.cs" />
     <Compile Include="Assets\KYH\Scripts\Stat\BasicStat.cs" />
     <Compile Include="Assets\KYH\Scripts\Manager\InGameManager\UI\BossUI.cs" />
@@ -71,26 +75,39 @@
     <Compile Include="Assets\KYH\Scripts\Player Skill\Passive Skill\Drone.cs" />
     <Compile Include="Assets\KYH\Scripts\Manager\InGameManager\UI\PlayerUI.cs" />
     <Compile Include="Assets\KYH\Scripts\Player Skill\Active Skill\FirePillar.cs" />
+    <Compile Include="Assets\Scenes\WD_BossFSM.cs" />
+    <Compile Include="Assets\Scripts\SlimeSpawnerController.cs" />
     <Compile Include="Assets\KYH\Scripts\Player Skill\Active Skill\PowerSlash.cs" />
+    <Compile Include="Assets\Scenes\WD_Boss.cs" />
+    <Compile Include="Assets\Scripts\BatSpawnerController.cs" />
+    <Compile Include="Assets\KYH\Scripts\Player\PlayerBuff.cs" />
     <Compile Include="Assets\KYH\Scripts\Manager\ResourceManager.cs" />
     <Compile Include="Assets\KYH\Scripts\Stat\LivingEntity.cs" />
     <Compile Include="Assets\KYH\Scripts\Player Skill\Passive Skill\PassiveSkill.cs" />
+    <Compile Include="Assets\Scenes\TargetCheck.cs" />
+    <Compile Include="Assets\Enemy Galore 1 - Pixel Art\Script\EnemyTest.cs" />
     <Compile Include="Assets\KYH\Scripts\Stat\IBasicMovement.cs" />
     <Compile Include="Assets\KYH\Scripts\Enemy\Enemy.cs" />
+    <Compile Include="Assets\Scripts\OrangeCoinController.cs" />
     <Compile Include="Assets\KYH\Scripts\Player Skill\Active Skill\ThrowingKnife.cs" />
     <Compile Include="Assets\KYH\Scripts\Player Skill\Passive Skill\HourGlass.cs" />
     <Compile Include="Assets\KYH\Scripts\Player\InputController.cs" />
+    <Compile Include="Assets\Scripts\BlueCoinController.cs" />
     <Compile Include="Assets\KYH\Scripts\Player\PlayerCamera.cs" />
+    <Compile Include="Assets\Scripts\PlayerController_GN.cs" />
     <Compile Include="Assets\KYH\Scripts\Player Skill\Active Skill\BarrierEvent.cs" />
     <Compile Include="Assets\KYH\Scripts\Enemy\BossFSM.cs" />
     <Compile Include="Assets\KYH\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\KYH\Scripts\Manager\InGameManager\UI\InventoryUI.cs" />
     <Compile Include="Assets\KYH\Scripts\Manager\Mangers.cs" />
+    <Compile Include="Assets\Scripts\SlimeController.cs" />
+    <Compile Include="Assets\Scripts\SkullSpawnerController.cs" />
     <Compile Include="Assets\KYH\Scripts\Manager\InGameManager\StageManager.cs" />
     <Compile Include="Assets\KYH\Scripts\Manager\InGameManager\GameManager.cs" />
     <Compile Include="Assets\KYH\Scripts\Manager\SoundManager.cs" />
-    <Compile Include="Assets\KYH\Scripts\Player Skill\Passive Skill\Coward.cs" />
-    <Compile Include="Assets\KYH\Scripts\Player\PlayerBuff.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Enemy Galore 1 - Pixel Art\Read Me.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

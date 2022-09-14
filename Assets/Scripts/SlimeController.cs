@@ -59,7 +59,7 @@ public class SlimeController: MonoBehaviour
     private void Attack()
     {
         anim.SetTrigger("Attack");
-        target.GetComponent<PlayerController>().damage(attackPower);
+        target.GetComponent<PlayerController_GN>().damage(attackPower);
         StartCoroutine(AttackProcess());
         Die();
     }

@@ -68,7 +68,7 @@ public class SkullController : MonoBehaviour
     private void Attack()
     {
         anim.SetTrigger("Attack");
-        target.GetComponent<PlayerController>().damage(attackPower);
+        target.GetComponent<PlayerController_GN>().damage(attackPower);
         StartCoroutine(AttackProcess());
         state = State.Die;
         Die();
