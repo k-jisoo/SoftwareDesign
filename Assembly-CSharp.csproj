@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A38862E8-708F-5478-6D09-4DD85B63DB17}</ProjectGuid>
+    <ProjectGuid>{46F87AA8-3CE3-E048-637D-2192B065FB19}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,15 +57,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BatController.cs" />
+    <Compile Include="Assets\Scenes\TargetCheck.cs" />
     <Compile Include="Assets\Enemy Galore 1 - Pixel Art\Script\EnemyTest.cs" />
     <Compile Include="Assets\Scripts\OrangeCoinController.cs" />
     <Compile Include="Assets\Scripts\BlueCoinController.cs" />
     <Compile Include="Assets\Scripts\SkullController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Enemy Galore 1 - Pixel Art\Script\EnemySelector.cs" />
+    <Compile Include="Assets\Scenes\WD_BossFSM.cs" />
     <Compile Include="Assets\Scripts\SlimeController.cs" />
     <Compile Include="Assets\Scripts\SlimeSpawnerController.cs" />
     <Compile Include="Assets\Scripts\SkullSpawnerController.cs" />
+    <Compile Include="Assets\Scenes\WD_Boss.cs" />
     <Compile Include="Assets\Scripts\BatSpawnerController.cs" />
   </ItemGroup>
   <ItemGroup>

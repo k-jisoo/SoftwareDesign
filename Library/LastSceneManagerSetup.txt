@@ -1,5 +1,13 @@
 sceneSetups:
 - path: Assets/Scenes/Gaeun.unity
   isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Jisoo.unity
+  isLoaded: 1
   isActive: 1
+  isSubScene: 0
+- path: Assets/Scenes/WD.unity
+  isLoaded: 1
+  isActive: 0
   isSubScene: 0
