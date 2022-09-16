@@ -56,25 +56,25 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Brushes\CoordinateBrush\CoordinateBrush.cs" />
-    <Compile Include="Assets\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Brushes\RandomBrush\RandomBrush.cs" />
-    <Compile Include="Assets\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Tiles\RuleOverrideTile\RuleOverrideTileEditor.cs" />
-    <Compile Include="Assets\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Brushes\TintBrushSmooth\TintBrushSmooth.cs" />
-    <Compile Include="Assets\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Brushes\TintBrush\TintBrush.cs" />
-    <Compile Include="Assets\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Tiles\HexagonalRuleTile\HexagonalRuleTileEditor.cs" />
-    <Compile Include="Assets\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Brushes\LineBrush\LineBrush.cs" />
-    <Compile Include="Assets\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Tiles\RuleTile\CustomRuleTileMenu.cs" />
-    <Compile Include="Assets\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Tiles\RuleTile\RuleTileEditor.cs" />
-    <Compile Include="Assets\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Brushes\GameObjectBrush\GameObjectBrush.cs" />
-    <Compile Include="Assets\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Brushes\PrefabBrush\PrefabBrush.cs" />
-    <Compile Include="Assets\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Tiles\RuleOverrideTile\PopulateRuleOverrideTileWizard.cs" />
-    <Compile Include="Assets\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Brushes\GroupBrush\GroupBrush.cs" />
-    <Compile Include="Assets\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Tiles\RuleOverrideTile\AdvancedRuleOverrideTileEditor.cs" />
-    <Compile Include="Assets\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Tiles\IsometricRuleTile\IsometricRuleTileEditor.cs" />
+    <Compile Include="Assets\Etc\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Brushes\CoordinateBrush\CoordinateBrush.cs" />
+    <Compile Include="Assets\Etc\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Brushes\RandomBrush\RandomBrush.cs" />
+    <Compile Include="Assets\Etc\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Tiles\RuleOverrideTile\RuleOverrideTileEditor.cs" />
+    <Compile Include="Assets\Etc\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Brushes\TintBrushSmooth\TintBrushSmooth.cs" />
+    <Compile Include="Assets\Etc\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Brushes\TintBrush\TintBrush.cs" />
+    <Compile Include="Assets\Etc\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Tiles\HexagonalRuleTile\HexagonalRuleTileEditor.cs" />
+    <Compile Include="Assets\Etc\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Brushes\LineBrush\LineBrush.cs" />
+    <Compile Include="Assets\Etc\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Tiles\RuleTile\CustomRuleTileMenu.cs" />
+    <Compile Include="Assets\Etc\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Tiles\RuleTile\RuleTileEditor.cs" />
+    <Compile Include="Assets\Etc\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Brushes\GameObjectBrush\GameObjectBrush.cs" />
+    <Compile Include="Assets\Etc\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Brushes\PrefabBrush\PrefabBrush.cs" />
+    <Compile Include="Assets\Etc\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Tiles\RuleOverrideTile\PopulateRuleOverrideTileWizard.cs" />
+    <Compile Include="Assets\Etc\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Brushes\GroupBrush\GroupBrush.cs" />
+    <Compile Include="Assets\Etc\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Tiles\RuleOverrideTile\AdvancedRuleOverrideTileEditor.cs" />
+    <Compile Include="Assets\Etc\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Tiles\IsometricRuleTile\IsometricRuleTileEditor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Tiles\RuleTile\ScriptTemplates\NewCustomRuleTile.cs.txt" />
-    <None Include="Assets\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Unity.2D.Tilemap.Extras.Editor.asmdef" />
+    <None Include="Assets\Etc\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Tiles\RuleTile\ScriptTemplates\NewCustomRuleTile.cs.txt" />
+    <None Include="Assets\Etc\2d-extras-1.4.0\2d-extras-1.4.0\Editor\Unity.2D.Tilemap.Extras.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -314,9 +314,6 @@
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>Assets\KYH\AstarPathfindingProject\Plugins\DotNetZip\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
-    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
@@ -325,6 +322,9 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>Assets\Etc\AstarPathfindingProject\Plugins\DotNetZip\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

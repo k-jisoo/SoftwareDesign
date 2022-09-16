@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public GameManager manager; 
+    public GameManager_YJ manager; 
     public float Speed;
   
     Rigidbody2D rigid;
