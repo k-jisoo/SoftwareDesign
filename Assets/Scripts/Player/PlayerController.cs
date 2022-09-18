@@ -27,7 +27,7 @@ public class PlayerController : LivingEntity, IBasicMovement
     private void Start()
     {
         lastDir = Vector2.up;
-        
+        /*
        GameObject skillObject = Mangers.Resource.GetPerfabGameObject("Player Skill/PowerSlash Skill");
        ActiveSkill pdSkill = Instantiate(skillObject, this.transform).GetComponent<ActiveSkill>();
        pdSkill.Init(this.gameObject);
@@ -62,14 +62,14 @@ public class PlayerController : LivingEntity, IBasicMovement
         PassiveSkill drSkill = Instantiate(passvieSkillObject2, this.transform).GetComponent<PassiveSkill>();
         drSkill.Init(this.gameObject);
         playerPassiveSkills.Add(1, drSkill);
-
+        */
         Init();
 
         playerCamera = GetComponent<PlayerCamera>();
         playerRigidbody = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
 
-        playerPassiveSkills[1].OnActive();
+     //   playerPassiveSkills[1].OnActive();
     }
 
 
